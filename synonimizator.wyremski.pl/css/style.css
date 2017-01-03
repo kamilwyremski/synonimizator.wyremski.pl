@@ -1,0 +1,149 @@
+*{
+	margin: 0; padding: 0; list-style: none; text-decoration: none; 
+}
+body{
+    font-family: 'Lato', sans-serif; background: url("../../images/background.jpg") no-repeat scroll center top #04121f;  position: relative;
+	min-width: 1100px;  -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;
+}
+h1{
+	font-family: 'Ubuntu', sans-serif; font-size: 40px; color: #ae8631; text-align:center; padding: 30px; text-shadow: 0 0 5px black;
+}
+h2{
+	font-family: 'Oswald', sans-serif; font-size: 20px; color: #463225; text-align:center; text-shadow: 0 0 5px white; padding: 2px;
+}
+h3{
+	font-family: 'Oswald', sans-serif; font-size: 18px; color:rgba(0,62,74,0.8); text-align:center; text-shadow: 0 0 5px white; padding: 2px;
+}
+h4, h4 a{
+	font-family: 'Ubuntu', sans-serif; font-size: 14px; color: #ae8631; text-align:center; text-shadow: 0 0 5px white; margin: 5px;
+}
+p, li, table, label{
+	color: #463225; font-size: 14px; line-height: 150%;
+}
+input, textarea{
+	padding: 5px 10px; font:inherit; font-size: 13px; border: solid 1px #463225;
+}
+input:hover, textarea:hover{
+	border-color: black;
+}
+input[type=button], input[type=submit]{
+	cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover{
+	box-shadow: 0 0 5px black;
+}
+input[type=checkbox]{
+	position: relative; bottom: 0px; margin-right: 4px;     
+}
+textarea{
+	margin: 5px 10px;
+}
+a{
+	color:#453225;
+}
+a:hover{
+	color: black;
+}
+/* cms */
+#okno_logowania{
+	width: 340px; max-width: 80%; margin: auto; margin-top: 100px; background-color: #f7f7f7; box-shadow: 0 0 10px rgba(0,0,0,0.6); border-radius: 10px;
+	border: solid 4px #292f38; padding: 20px 10px; text-align:center;
+}
+#okno_logowania h1{
+	font-size: 30px; padding:0; text-shadow: none;
+}
+#okno_logowania img{
+	width:80%;	margin-bottom: 20px;
+}
+#ustawienia tr td:first-child{
+	text-align:right; font-weight: bold; font-size: 15px; padding: 8px;
+}
+#okno_logowania input, #ustawienia input{
+	border: solid 2px #463225; background-color: white;	font-weight:bold;	font-size:14px;	width:200px;   border-radius: 2px;
+    color: #545454;    padding: 5px 6px;	margin: 3px; transition: all 0.5s;
+}
+#okno_logowania input:active, #okno_logowania input:hover, #okno_logowania input:focus, #ustawienia input:active, #ustawienia input:hover, #ustawienia input:focus{
+	border-color: grey;    box-shadow: 0 0 5px grey;	color: #2E2E2E;	background-color:white;
+}
+#okno_logowania input[type=submit], #ustawienia input[type=submit]{
+	display:inline-block;	 padding: 8px 20px; margin: 3px;	background-color: #463225; width: auto; box-shadow: 0 0 5px #bfbfbf;	color:white;
+	font-size:14px;	cursor:pointer;	border: solid 1px white;	transition: all 0.5s;
+}
+#okno_logowania input[type=submit]:hover, #ustawienia input[type=submit]:hover{
+	background-color: transparent; color: black; border-color: black; box-shadow: 0 0 5px grey; text-decoration: none;
+}
+#okno_logowania input[type=checkbox]{
+	width: 17px;
+}
+.blad{
+	color: red;
+}
+/* tabele */
+table{
+	border-collapse: collapse;	margin:auto;
+}
+.table tr{
+	height: 35px; background-color: rgba(255,255,255,0.9);
+}
+.table tr:nth-child(2n){
+	background-color: #f9f9f9;
+}
+.table tr td{
+	border: solid 1px #dddddd; padding: 3px 10px;
+}
+.table tr:first-child{
+	background-color: #ecedee;	text-align:center;	color: #444444;	font-size:15px; font-weight: bold;
+}
+/* Strona */
+#site{
+	width:1100px; margin: 50px auto 50px; position:relative; background-color: rgba(247,239,206,0.8)
+}
+.content{
+	padding: 20px 50px 50px 50px; text-align:center;
+}
+/* Konwerter */
+.pola_konwertera{
+	display:inline-block; vertical-align: top;
+}
+.textarea{
+	padding: 5px 10px; font:inherit; font-size: 13px; border: solid 1px #50402a; margin: 5px 10px; display: inline-block; width: 350px; 
+}
+div.textarea{
+	overflow: scroll; overflow-x: hidden;
+}
+.textarea:hover{
+	border-color: black;
+}
+#opis_input, #opis_output{
+	height: 300px;  background-color: white; text-align: left; 
+}
+#tytul_input{
+	height: 100px;
+}
+.blue{
+	color: #5400ff;
+}
+/* Kontakt */
+#form_kontakt{
+	display: block; width: 500px; margin: auto; margin-top: 20px;
+}
+#form_kontakt input{
+	width: 200px; margin: 4px;
+}
+#form_kontakt textarea{
+	width: 440px; height: 150px;
+}
+#form_kontakt input[type=submit]{
+	width: 120px; margin-right: 10px;
+}
+/* footer */
+footer{
+	width:100%; margin:auto; position:relative; background-color: rgba(1,20,34,0.7);
+	font-size: 12px; padding: 15px 0; text-align:center; color: #d8d6ba;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	text-decoration: underline; color: white;
+}
